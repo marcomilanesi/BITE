@@ -1,2 +1,2 @@
 # BITE
-BITE: BioInformatics tools for everyone
+BITE: BioInformatics Tools for Everyone
