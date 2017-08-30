@@ -21,6 +21,11 @@ The necessary dependencies are below reported.
 
 
 
+### How to cite
+Milanesi, M., Capomaccio, S., Vajana, E., Bomba, L., Garcia, J.F., Ajmone-Marsan, P., Colli, L., 2017. BITE: an R package for biodiversity analyses. bioRxiv 181610. doi:10.1101/181610
+
+
+
 ### Maintainers contacts
 * Marco Milanesi <marco.milanesi.mm@gmail.com>
 * Stefano Capomaccio <capemaster@gmail.com>
