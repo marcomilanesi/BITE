@@ -13,7 +13,7 @@ The package could be installed from source in R.
 The necessary dependencies are below reported. 
 
 #### Dependencies
- * RCircos (>= 1.1.3)
+ * RCircos (== 1.1.3)
  * reshape2 (>= 1.4)
  * RColorBrewer (>= 1.1)
  * GenABEL (>= 1.8-0)
