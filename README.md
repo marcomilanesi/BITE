@@ -4,6 +4,12 @@
 
 Nowadays, molecular data analyses for biodiversity studies often require advanced bioinformatics skills, preventing many life scientists from analysing their own data autonomously. BITE R package provides complete and user-friendly functions to handle SNP data and third-party software results (i.e. Admixture, TreeMix), facilitating their visualization, interpretation and use. Furthermore, BITE implements additional useful procedures, such as representative sampling and bootstrap for TreeMix, filling the gap in existing biodiversity data analysis tools. 
 
+Examples of BITE function outputs from human trial datasets. 
+A) Membership coefficients estimated with Admixture software at K= 2, 3, 4, 7 and plotted in curcular fasihion with the membercoef.circos function of BITE;
+B) Gene flow analysis using TreeMix. Nodes robustness was estimated with 100 bootstrap replicates and plotted using the treemix.bootstrap function of BITE.
+![Figure 1](https://user-images.githubusercontent.com/13908985/31124928-e2e11dfc-a81c-11e7-9b5c-738a7ad61e51.jpg)
+
+
 **The BITE manuscript is available at bioxriv.org.** Link to [paper](http://www.biorxiv.org/content/early/2017/08/29/181610) & [doi](https://doi.org/10.1101/181610 )
 
 
