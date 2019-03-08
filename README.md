@@ -25,6 +25,10 @@ The necessary dependencies are below reported.
  * GenABEL (>= 1.8-0)
  * car (>= 2.1-2)
 
+#####Trouble in installation
+ * RCircos: you can find the correct version of the package [here](https://cran.r-project.org/src/contrib/Archive/RCircos/RCircos_1.1.3.tar.gz)
+ * GenABEL was archived on 2018-05-25, as [here](https://cran.r-project.org/web/packages/GenABEL/index.html) reported. However, you can istall the last available version of GenABEL following the istruction [here](https://www.reddit.com/r/rprogramming/comments/98xxna/where_to_find_dependencies_for_archived_package/) reported.
+
 
 
 ### How to cite
