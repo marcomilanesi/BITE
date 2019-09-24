@@ -7,7 +7,7 @@ Nowadays, molecular data analyses for biodiversity studies often require advance
 Examples of BITE function outputs from human trial datasets. 
 A) Membership coefficients estimated with Admixture software at K= 2, 3, 4, 7 and plotted in curcular fasihion with the membercoef.circos function of BITE;
 B) Gene flow analysis using TreeMix. Nodes robustness was estimated with 100 bootstrap replicates and plotted using the treemix.bootstrap function of BITE.
-![Figure 1](https://user-images.githubusercontent.com/13908985/31124928-e2e11dfc-a81c-11e7-9b5c-738a7ad61e51.jpg)
+![Fig1_20190924](https://user-images.githubusercontent.com/13908985/65525052-463f7c00-dec5-11e9-88f7-309640394a1d.jpg)
 
 
 **The BITE manuscript is available at bioxriv.org.** Link to [paper](http://www.biorxiv.org/content/early/2017/08/29/181610) & [doi](https://doi.org/10.1101/181610 )
@@ -24,6 +24,10 @@ The necessary dependencies are below reported.
  * RColorBrewer (>= 1.1)
  * GenABEL (>= 1.8-0)
  * car (>= 2.1-2)
+ * rmarkdown (>= 1.6)
+ * knitr (>= 1.17)
+ * kableExtra (>= 0.6.1)
+ * beanplot (>= 1.2)
 
 #####Trouble in installation
  * RCircos: you can find the correct version of the package [here](https://cran.r-project.org/src/contrib/Archive/RCircos/RCircos_1.1.3.tar.gz)
