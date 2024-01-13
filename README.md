@@ -18,30 +18,46 @@ B) Gene flow analysis using TreeMix. Nodes robustness was estimated with 100 boo
 The package could be installed from source in R. 
 The necessary dependencies are below reported. 
 
+**Faster method (using devtools)**
+```{r, results='hide'}
+# install devtools
+install.packages("devtools")
+
+# install BiocManager (if necessary)
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+# install SNPRelate using BiocManager
+BiocManager::install("SNPRelate")
+
+# load devtools
+library(devtools)
+
+# install BITE V2 from source
+devtools::install_local("BITEV2_2.1.0.tar.gz")
+```
+
 #### Dependencies
- * RCircos (== 1.1.3)
- * reshape2 (>= 1.4)
- * RColorBrewer (>= 1.1)
- * GenABEL (>= 1.8-0)
- * car (>= 2.1-2)
- * rmarkdown (>= 1.6)
- * knitr (>= 1.17)
- * kableExtra (>= 0.6.1)
- * beanplot (>= 1.2)
-
-##### Trouble in installation
- * RCircos: you can find the correct version of the package [here](https://cran.r-project.org/src/contrib/Archive/RCircos/RCircos_1.1.3.tar.gz)
- * GenABEL was archived on 2018-05-25, as [here](https://cran.r-project.org/web/packages/GenABEL/index.html) reported. However, you can istall the last available version of GenABEL following the istruction [here](https://www.reddit.com/r/rprogramming/comments/98xxna/where_to_find_dependencies_for_archived_package/) reported.
-
-
+* SNPRelate >= 1.32.2 
+* ggplot2 >= 3.4.2
+* gridExtra >= 2.3
+* stringr >= 1.5.0
+* shiny >= 1.7.4.1
+* dplyr >= 1.1.2
+* plotly >= 4.10.2
+* ggrepel >= 0.9.3
+* data.table >= 1.14.8
+* RCircos >= 1.2.2
+* OptM >= 0.1.6
+* poolfstat >= 2.1.2
+* RColorBrewer >= 1.1-3
 
 ### How to cite
-Milanesi, M., Capomaccio, S., Vajana, E., Bomba, L., Garcia, J.F., Ajmone-Marsan, P., Colli, L., 2017. BITE: an R package for biodiversity analyses. bioRxiv 181610. doi:10.1101/181610
-
-
+Milanesi M., Litta P., Vajana E., Somenzi E., Bomba L., Pietrucci D., Ajmone-Marsan P., Chillemi G., Capomaccio S., Colli L., 2017. BITE: an R package for biodiversity analyses. bioRxiv 181610. doi:10.1101/181610
 
 ### Maintainers contacts
 * Marco Milanesi <marco.milanesi.mm@gmail.com>
+* Paolo Litta <paolo.litta.pl@gmail.com>
 * Stefano Capomaccio <capemaster@gmail.com>
 * Elia Vajana <vajana.elia@gmail.com>
 * Lorenzo Bomba <lory.bomb@gmail.com>
