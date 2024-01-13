@@ -34,7 +34,7 @@ BiocManager::install("SNPRelate")
 library(devtools)
 
 # install BITE V2 from source
-devtools::install_local("BITEV2_2.1.0.tgz")
+devtools::install_local("BITEV2_2.1.0.tar.gz")
 ```
 
 #### Dependencies
